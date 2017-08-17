@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+@font-face {
+    font-family: 'misoregular';
+    src: url('../fonts/miso-webfont.woff2') format('woff2'),
+    url('../fonts/miso-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'misobold';
+    src: url('../fonts/miso-bold-webfont.woff2') format('woff2'),
+    url('../fonts/miso-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ffcc66;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'misobold', sans-serif;
+    font-size: 60pt;
+    font-weight: 700;
+    color: #009966;
+    padding-top: 40px;
+}
+
+h3 {
+    font-family: 'Lato', 'misobold', sans-serif;
+    font-weight: 300;
+    font-size: 14pt;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-family: 'misobold', sans-serif;
+    font-size: 36pt;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.flex-container {
+	max-width: 1140px;
+	margin: 90px auto;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bg-item{
+	min-height: 500px;
+
+	background-color: #fff;
+
+	flex-basis: 360px;
+
+	margin: 0 10px 10px;
+
+	overflow: hidden;
+
+	border-radius: 3px;
+
+	-webkit-box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.62);
+	-moz-box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.62);
+	box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.62);
+}
+
+.bg-item__cups {
+    text-align: center;
+    padding: auto;
+}
+
